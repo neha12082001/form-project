@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,  #2A4A79,#8688BB,#C4B7E9); 
+
+}
+
+.container{
+    width:800px ;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;  
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);   
+    display: flex;
+}
+
+.left{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+
+.left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.left .first {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.left .two{
+    margin-top: 5px;
+}
+
+.left .third{
+    position: absolute;
+    top: 80px;
+    left: 220px;
+    
+}
+
+.left .fourth{
+    font-size: 20px;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.right label{
+    font-size: 20px;
+}
+
+.right p{
+    font-size: 20px;
+}
+.right input[type="text"],.right input[type="email"],.right input[type="password"],.right select{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:1px solid #ccc;
+
+}
+.right input[type="checkbox"], .right p{
+        display: inline-block;
+        margin-top: 10px;
+        vertical-align: middle;
+        margin-right: 10px;
+}
+
+.right input[type="checkbox"]{
+   margin-top: -5px;
+
+}
+
+.right input[type="submit"]{
+    margin-top: 20px;
+    padding: 10px;
+    width:30% ;
+    background-color:#3C63CA;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.right h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.right form{
+    margin-left: 15px;
+    padding: 5px;
+
+}
